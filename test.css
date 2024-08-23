@@ -66,7 +66,7 @@ select::-ms-expand {
     border-color: #322AD7;
 }
 
-.btn:focus, .navbar-toggler:focus {
+.btn:focus {
     box-shadow: 0 0 0 .1rem #322AD7 !important;
 }
 
@@ -607,50 +607,8 @@ body.no-scroll {
     .nav-main {
         display: none !important;
     }
-    .navbar-collapse {
-        position: absolute;
-        top: 54px;
-        left: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 15px;
-        width: 100%;
-        transition: all 0.4s ease;
-        display: block;
-    }
-    .navbar-collapse.collapsing {
-        height: auto !important;
-        margin-left: 50%;
-        left: 50%;
-        transition: all 0.4s ease;
-    }
-    .navbar-collapse.show {
-        left: 0;
-        z-index: 999;
-    }
-    #navbarCollapse {
-        flex-direction: column;
-        height: 100%;
-        gap: 50px;
-        width: 100%;
-    }
-    #navbarCollapse .navbar-nav {
-        background: white;
-        width: 100%;
-    }
-    #navbarCollapse li {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        padding: 20px 0;
-    }
     .menu-btns {
         margin: 0 !important;
-    }
-    #iconmob {
-        display: block;
-        border: none;
-        color: #193475;
     }
     .menu-btns li:nth-of-type(2) {
         margin-right: 0px;
